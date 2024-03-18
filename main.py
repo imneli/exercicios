@@ -69,6 +69,8 @@ while senha != 1234:
     senha = int(input("Digite uma senha: "))
 print("senha correta.")
 
+#teste
+
 
 
 
