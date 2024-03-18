@@ -18,9 +18,9 @@ else:
 
 # exercicio 2 - verificar impar e par
 
-#sem for e while 
+#sem while (ruim) 
 
-n1 = int(input("1 | Digite um numero: "))
+'''n1 = int(input("1 | Digite um numero: "))
 n2 = int(input("2 | Digite um numero: "))
 n3 = int(input("3 | Digite um numero: "))
 n4 = int(input("4 | Digite um numero: "))
@@ -28,28 +28,48 @@ n5 = int(input("5 | Digite um numero: "))
 pares = 0
 impares = 0
 if n1%2 == 0:
-    pares += 1
+    pares = pares +1
 else:
     impares += 1
 if n2%2 == 0:
-    pares += 1
+    pares = pares +1
 else:
     impares += 1
 if n3%2 == 0:
-    pares += 1
+    pares = pares +1
 else:
     impares += 1
 if n4%2 == 0:
-    pares += 1
+    pares = pares +1
 else:
     impares += 1
 if n5%2 == 0:
-    pares += 1
+   pares = pares +1
 else:
     impares += 1
 print(f"O numero de pares foi {pares} e o numero de impares foi {impares}")
 
-# com for e while
+# com while
+
+rep = 0
+pares = 0
+while rep < 5: # se n informar < 5 n vai parar nunca, só vai repetir pq vai continuar true
+    num = int(input("Diga um numero: "))
+    if num%2==0: #verificar se é par
+        pares += 1
+    rep = rep + 1
+impares = 5 - pares
+print(f"O numero de pares foi {pares} e o de impares foi {impares}")'''
+
+# pedir senha até acertar
+
+senha = int(input("Digite uma senha: "))
+while senha != 1234:
+    print('Senha incorreta.')
+    senha = int(input("Digite uma senha: "))
+print("senha correta.")
+
+
 
 
 
